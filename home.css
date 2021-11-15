@@ -1,0 +1,153 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: montserrat;
+}
+
+.due-date, .points{
+  background-color: #bfbfbf;
+  float: right;
+}
+
+.right h1{
+  font-size: 100px;
+  padding-top: .3em;
+  color: Black;
+}
+
+.left h2{
+  padding-top: 1em;
+  font-size: 40px;
+}
+
+.container{
+  display: inline-flex;
+  width: 100%;
+  height: 94vh;
+}
+
+.left{
+  width: 20%;
+  background-color: #2980b9;
+  text-align: center;
+}
+
+.right{
+  width: 80%;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(assets/vit.jpg);
+}
+
+h1{
+  color: #fff;
+  font-weight: 700;
+  padding: 0;
+  line-height: 67px;
+  font-size: 68px;
+}
+
+.nav-bar{
+  background-color: #fff;
+  display: inline-flex;
+  width: 100%;
+}
+
+.nav-bar ul li a:hover{
+  color: white;
+  background-color: #2980b9;
+  border-radius: 5px;
+
+}
+
+.nav-bar ul li{
+  color: white;
+  background-color: white;
+  display: inline-flex;
+  text-decoration: none;
+  font-size: 32px;
+  padding: 5px 30px;
+}
+
+.nav-bar ul li a{
+  color: #2980b9;
+  background-color: white;
+  text-decoration: none;
+}
+
+.nav-bar ul{
+  text-align: left;
+  background-color: white;
+}
+
+.nav-bar ul:first-child{
+  text-align: left;
+  background-color: white;
+}
+
+hr{
+  border: 1px #aaaaaa solid;
+}
+
+.task{
+  color: #dfdfdf;
+  font-size: 32px;
+}
+
+.plus{
+  display: inline-block;
+  float:right;
+  padding-right: 30px;
+  padding-bottom: 5px;
+  background-color: #fff;
+}
+
+.room-type{
+  padding: 10px 0 10px 20px;
+  display: inline;
+  background-color: #ffffff;
+  color: #171717;
+  border-radius: 10px;
+  font-size: 32px;
+}
+
+td{
+  height: 62px;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 15px 15px 4px grey;
+}
+
+.hidden, p, img{
+  font-size: 32px;
+  background-color: #bfbfbf;
+}
+
+.hidden{
+  display: none;
+  width: 99%;
+}
+
+.topic, .ques{
+  padding-left: 20px;
+}
+
+ .due-date, .points{
+   padding-right: 20px;
+ }
+
+.pdf-icon{
+  height: 32px;
+}
+
+tr{
+  padding: 10px;
+}
+
+table{
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 1em;
+}
